@@ -39,6 +39,16 @@ export const ModelConfig = ({
         return 6000;
       case "gpt-4-0613":
         return 6000;
+      // case "claude-v1":
+      //   return 3000;
+      // case "claude-v1.3":
+      //   return 3000;
+      case "claude-v1.3-100k":
+        return 50000;
+      case "claude-instant-v1-100k":
+        return 50000;
+      case "claude-instant-v1.1-100k":
+        return 50000;    
       default:
         return 3000;
     }

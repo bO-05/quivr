@@ -24,10 +24,11 @@ export const openAiModels = ["gpt-3.5-turbo","gpt-3.5-turbo-0613","gpt-3.5-turbo
 export const openAiPaidModels = ["gpt-3.5-turbo","gpt-3.5-turbo-0613","gpt-3.5-turbo-16k","gpt-4","gpt-4-0613"] as const;
 
 export const anthropicModels = [
-  // "claude-v1",
-  // "claude-v1.3",
-  // "claude-instant-v1-100k",
-  // "claude-instant-v1.1-100k",
+  "claude-v1",
+  "claude-v1.3",
+  "claude-v1.3-100k",
+  "claude-instant-v1-100k",
+  "claude-instant-v1.1-100k",
 ] as const;
 
 export const googleModels = ["vertexai"] as const; // TODO activate when not in demo mode
